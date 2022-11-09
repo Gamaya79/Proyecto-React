@@ -32,7 +32,62 @@ function App() {
         imagen="../assets/Imagen1.jpg"
         />
 
-      </section>
+        <Item
+        precio={1200} 
+        nombre="Mate Artesanal"
+        categoria="Guitarra Criolla"
+        imagen="../assets/Imagen2.jpg"
+        />
+
+        <Item
+        precio={1200} 
+        nombre="Mate Artesanal"
+        categoria="Mike Wazowski"
+        imagen="../assets/Imagen3.jpg"
+        />
+
+        <Item
+        precio={1200} 
+        nombre="Mate Artesanal"
+        categoria="Bob Esponja"
+        imagen="../assets/Imagen4.jpg"
+        />
+
+        <Item
+        precio={1200} 
+        nombre="Mate Artesanal"
+        categoria="Garfield"
+        imagen="../assets/Imagen5.jpg"
+        />
+
+        <Item
+        precio={1200} 
+        nombre="Mate Artesanal"
+        categoria="Joaquín Sabina"
+        imagen="../assets/Imagen6.jpg"
+        />
+
+        <Item
+        precio={1200} 
+        nombre="Mate Artesanal"
+        categoria="Rey León"
+        imagen="../assets/Imagen7.jpg"
+        />
+
+        <Item
+        precio={1200} 
+        nombre="Mate Artesanal"
+        categoria="Lilo y Stitch"
+        imagen="../assets/Imagen8.jpg"
+        />
+
+         </section>
+
+      <footer className='footer'>
+        <h3 className='footer__items'>Política de privacidad</h3>
+        <h3 className='footer__items'>Terminos y condiciones</h3>
+        <h3 className='footer__items'>Otros</h3>
+      </footer>
 
     </div>
   );

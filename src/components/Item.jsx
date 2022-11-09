@@ -9,7 +9,7 @@ const Item = ({precio, nombre, categoria, imagen}) => {
           <span className='card__price'>{precio}</span>
           <div className='card__content'>
           <span className='card__name'>{nombre}</span><br />
-          <span className='card__category'>{categoria}</span>
+          <span className='card__category'>{categoria}</span><br />
           <Tag titulo="Envío Gratis"/>
         </div>
       </div>

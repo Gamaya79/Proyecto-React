@@ -1,5 +1,5 @@
 import './App.css';
-import Tag from "./components/Tag"
+import Item from "./components/Item"
 
 function App() {
   return (
@@ -24,19 +24,14 @@ function App() {
         </div>
       </div>
       <section className='gallery'>
-       <div className='card'>
-          <div className='card__top'>
-             <figure>
-               <img src="../assets/Imagen1.jpg" className='card__imagen' alt="mate" />
-              </figure>
-              <span className='card__price'>$ 1.200</span>
-              <div className='card__content'>
-              <span className='card__name'>Mate Artesanal</span><br />
-              <span className='card__category'>Los Chicos del Barrio</span>
-              <Tag titulo="Envío Gratis"/>
-            </div>
-          </div>
-        </div>
+
+        <Item
+        precio={1200} 
+        nombre="Mate Artesanal"
+        categoria="Los Chicos del Barrio"
+        imagen="../assets/Imagen1.jpg"
+        />
+
       </section>
 
     </div>

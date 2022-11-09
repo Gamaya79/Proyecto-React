@@ -1,8 +1,5 @@
 import './App.css';
-
-const Tag = () => {
-  return <span className='card__tag'>Envío Pagado</span>
-}
+import Tag from "./components/Tag"
 
 function App() {
   return (
@@ -36,7 +33,7 @@ function App() {
               <div className='card__content'>
               <span className='card__name'>Mate Artesanal</span><br />
               <span className='card__category'>Los Chicos del Barrio</span>
-              <Tag/>
+              <Tag titulo="Envío Gratis"/>
             </div>
           </div>
         </div>

@@ -1,6 +1,8 @@
 import './App.css';
 import AppContainer from './components/AppContainer';
 import NavBar from './components/NavBar';
+import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -9,20 +11,13 @@ function App() {
     
      <NavBar />
 
-      <div className='banner'>
-        <div className='banner__content'>
-          <h2 className='banner__title'>Consigue 20 % de descuento</h2>
-          <button className='banner__button'>Regístrate Gratis {"->"}</button>
-        </div>
-      </div>
+     <Banner />
 
-      <AppContainer />
+    <main className='content'>
+    <AppContainer />
+    </main>
 
-      <footer className='footer'>
-        <h3 className='footer__items'>Política de privacidad</h3>
-        <h3 className='footer__items'>Terminos y condiciones</h3>
-        <h3 className='footer__items'>Otros</h3>
-      </footer>
+    <Footer />
 
     </div>
   );

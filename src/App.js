@@ -10,14 +10,11 @@ function App() {
     <div className="App">
     
      <NavBar />
-
-     <Banner />
-
-    <main className='content'>
-    <AppContainer />
-    </main>
-
-    <Footer />
+     <Banner promo = "Consigue 20 % de descuento"/>
+     <main className='content'>
+       <AppContainer />
+     </main>
+     <Footer />
 
     </div>
   );

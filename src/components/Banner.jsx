@@ -1,9 +1,9 @@
 import Button from "./Button";
 
-const Banner = () => {
+const Banner = ({promo}) => {
       return <div className='banner'>
       <div className='banner__content'>
-        <h2 className='banner__title'>Consigue 20 % de descuento</h2>
+        <h2 className='banner__title'>{promo}</h2>
         <Button className='banner__button'>Regístrate Gratis {"->"}</Button>
       </div>
     </div>

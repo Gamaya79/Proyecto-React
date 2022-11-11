@@ -1,3 +1,5 @@
+import { IoIosCart } from "react-icons/io";
+
 const NavBar = () => {
       return  <header className='header'>
       <img src="../assets/logomarmi.png" className='header__logo' alt="logo" />
@@ -7,9 +9,10 @@ const NavBar = () => {
         <h3>Set Matero</h3>
       </div>
       <div className='header__buttons'>
+        <IoIosCart />
         <button>Carrito</button>
       </div>
     </header>
 }
 
-export default NavBar
+export default NavBar;

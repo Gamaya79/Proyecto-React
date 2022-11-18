@@ -39,7 +39,16 @@
   }
   
   button{
-  background: none;
+  margin: 0px 10px;
+  background: black;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 10px;
+  cursor: pointer;
+  }
+  button:hover {
+    font-size: 16px;
+    background: rgb(219, 46, 46);
   }
   
   .header {
@@ -179,6 +188,13 @@
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
+  }
+
+  .grid {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    
   }
 
   
